@@ -91,7 +91,8 @@ def przeszukiwanie(nazwa="", odKonca="", zaczynaOd="C:/", maxWynikow=100, pamiec
     return katalogi, sprawdzone, czasFunkcji
 
 if __name__ == "__main__":
-    (katalogi, sprawdzone, czas) = przeszukiwanie("google", "", "C:/", 10, [])
+    (katalogi, sprawdzone, czas) = przeszukiwanie("zdjecie_google", "", "C:/", 10, [])
 
     [print(f"{i}, {liczba}") for i, liczba in enumerate(katalogi)]
     print(f"Sprawdzono: {sprawdzone} plików w czasie: {czas}.")
+# C:/Users\barte\OneDrive\Pictures\zdjecie_google.png
